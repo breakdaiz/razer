@@ -1,0 +1,27 @@
+body {
+    background-color: #FCFCFC;
+}
+
+.page-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+.header-padding {
+    padding: 20px 45px 0px;
+}
+
+
+
+
+/* footer */
+
+.site-footer {
+    background-color: #F2F2F2;
+  
+}
+.copy-right {
+    color: slategrey;
+    padding: 15px 0;
+    position: absolute;
+}
