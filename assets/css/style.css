@@ -1,5 +1,7 @@
 body {
     background-color: #FCFCFC;
+    padding-top: 54px;
+    font-family: 'Helvetica Neue';
 }
 
 .page-wrapper {
@@ -12,8 +14,18 @@ body {
 }
 
 
+/* HOME PAGE SECTION */
 
 
+.home-section-1 {
+    margin: 200px 0px;
+}
+.dvrse-y {
+    color: #FFD040;
+}
+.dvrse-bold {
+   font-weight: bolder;
+}
 /* footer */
 
 .site-footer {
