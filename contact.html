@@ -63,20 +63,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="works.html">Our Works</a>
                 </li>
-                <li class="mr-4 nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="services.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Services
-                    </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="branding.html">Branding</a>
-                            <a class="dropdown-item" href="marketing.html">Marketing</a>
-                            <a class="dropdown-item" href="digital-development.html">Digital Development</a>
-                          </div>
-                </li>
+                <li class="mr-4 nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Services
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="branding.html">Branding</a>
+                                <a class="dropdown-item" href="marketing.html">Marketing</a>
+                                <a class="dropdown-item" href="digital-development.html">Digital Development</a>
+                            </div>
+                    </li>
             </ul>
            
             <a href="contact.html">
-                <button class="btn dvrse-button-y my-5 my-sm-0">Contact Us</button>
+                    <button class="btn dvrse-button-y my-5 my-sm-0">Contact Us</button>
             </a>           
         </div>
 
@@ -84,24 +84,100 @@
 <!-- end Navigation -->
           
 
-
   <!-- start page-wrapper -->
   <div class="page-wrapper">
+
+ 
+      
+      <!-- Start header -->
+      <header>
+      </header>
+      <!-- end header -->
+
 
     <!-- Page Content -->
     <div class="container">
         <!-- home section -->
-      <section class="home-section-1">
+      <section class="my-5">
           <div class="row">
-            <div class="col col-md-12">
-              <h1 class="text-center dvrse-bold">
-                We specialize in combining <span class="dvrse-y"> strategy, design, </span>  <br> and <span class="dvrse-y">innovation</span>  into creating better branding. <br>
-                  We deliver strategic branding and digital <br> design development solutions.
-              </h1>
-            </div>
+              <div class="col col-md-12">
+                    <h1 class="dvrse-bold">DvrseNow</h1>
+              </div>
           </div>
-      </section>   <!-- END Home section -->
-    </div> <!-- end of container -->
+        
+         
+            <div class="row">
+                    <div class="col-lg-8 mb-6">
+                        <p> 
+                            Get in Touch  <br> <br>
+                            <a class="text-warning" href="mailto:hello@dvrse.net?Subject=Hello%20Dvrse%20Let's%20grab%20a%20coffee!">hello@dvrse.net </a><br>
+                            <a class="text-warning" href="tel:+639171755727">09171755627</a> <br> <br>
+                            How we can help your Business? <br>
+                            Drop us an email.
+                        </p>
+
+
+                        
+                    
+                      <form name="sentMessage" id="contactForm" >
+                        <div class="control-group form-group">
+                          <div class="controls">
+                            <input type="text" placeholder="Fullname" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                          </div>
+                        </div>
+                      
+                        <div class="control-group form-group">
+                          <div class="controls">
+                            <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address." aria-invalid="false">
+                          <div class="help-block"></div></div>
+                        </div>
+
+                        <div class="control-group form-group">
+                                <div class="controls">
+                                  <input type="text" placeholder="Company / Organization" class="form-control" id="companyname"  aria-invalid="false" required data-validation-required-message="Please enter your Company / Organization.">
+                                  <p class="help-block"></p>
+                                </div>
+                        </div>
+
+
+                        <div class="control-group form-group">
+                          <div class="controls">
+                          
+                            <textarea rows="10" cols="100" placeholder="Project Description" class="form-control" id="message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" aria-invalid="false"></textarea>
+                          <div class="help-block"></div></div>
+                        </div>
+                        <div id="success"></div>
+                        <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-outline-secondary" id="sendMessageButton">Send Message</button>
+                      </form>
+                    </div>
+
+                    <div class="col-lg-4 mb-6 my-2">
+
+                        <p> 
+                           Careers  <br> <br>
+                           <a class="text-warning" href="mailto:jobs@dvrse.net?Subject=Hi%20Dvrse%20I%20want%20to%20be%20a%20part%20of%20your%20team!"> jobs@dvrse.net</a>  <br> <br>
+                           General Inquiries <br>
+                           <a class="text-warning" href="mailto:infos@dvrse.net?Subject=Hi%20Dvrse%20Let's%20talk about%20business!"> info@dvrse.net</a> <br><br>
+                           <span class="dvrse-bold">Manila, Philippines</span> <br>
+                           <span class="dvrse-bold">Al Khobar, Saudi Arabia</span>
+                          
+                        </p>
+
+                    
+                    </div>
+
+
+            
+                  </div> <!-- End Row -->
+
+        
+
+      </section>
+
+      
+    </div>
 
   </div>  <!-- end of page-wrapper -->
 
@@ -123,9 +199,9 @@
               <li> 
                   Email: <a  class="text-warning" href="mailto:hello@dvrse.net?Subject=Hello%20Dvrse%20Let's%20grab%20a%20coffee!">hello@dvrse.net </a>
               </li>
-              <li>
-                  Tel No.<a class="text-warning" href="tel:+639171755727">(+63) 917 1755627</a>
-              </li>
+              <li>Tel No.
+                  <a class="text-warning" href="tel:+639171755727">(+63) 917 1755627</a>
+                </li>
             </ul>
           </div>
 
@@ -145,7 +221,8 @@
               <li><a class="text-muted" href="#">FB</a></li>
               <li><a class="text-muted" href="#">Instagram</a></li>
               <li><a class="text-muted" href="#">Linked In</a></li>
-              <li><a class="text-muted" href="#">Behance</a></li> 
+              <li><a class="text-muted" href="#">Behance</a></li>
+             
             </ul>
           </div>
 

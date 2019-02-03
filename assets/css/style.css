@@ -4,32 +4,79 @@ body {
     font-family: 'Helvetica Neue';
 }
 
-.page-wrapper {
-    position: relative;
-    overflow: hidden;
+
+
+@media (min-width: 1281px) {
+  
+    .page-wrapper {
+        position: relative;
+        overflow: hidden;
+        padding: 0px 200px;
+      }
+    
+    
   }
+  
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .page-wrapper {
+        position: relative;
+        overflow: hidden;
+        padding: 0px 200px;
+      }
+    
+  }
+
+
+
 
 .header-padding {
     padding: 20px 45px 0px;
 }
+
+.dvrse-y {
+    color: #FFD040;
+}
+.dvrse-button-y {
+    background-color: #FFCC33;
+}
+.dvrse-bold {
+   font-weight: bolder;
+}
+
+/* NAV BAR */
 
 
 /* HOME PAGE SECTION */
 
 
 .home-section-1 {
-    margin: 200px 0px;
+    margin: 200px auto;
+    height: 300px;
 }
-.dvrse-y {
-    color: #FFD040;
+
+/* ABOUT SECTION */
+
+.about-section{
+    margin: 50px 0px;
 }
-.dvrse-bold {
-   font-weight: bolder;
+
+
+/* Branding Section */
+
+.services-branding, .services-digital, .services-marketing {
+    margin-top: 100px;
+    margin-bottom: 300px;
 }
+
+
 /* footer */
 
 .site-footer {
     background-color: #F2F2F2;
+    font-size: 0.8rem;
+    height: auto;
   
 }
 .copy-right {
@@ -37,3 +84,10 @@ body {
     padding: 15px 0;
     position: absolute;
 }
+
+
+/* PORTFOLIO SECTION */
+.portfolio-item {
+    margin-bottom: 30px;
+  }
+  
