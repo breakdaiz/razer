@@ -7,13 +7,11 @@ body {
 
 
 @media (min-width: 1281px) {
-  
     .page-wrapper {
         position: relative;
         overflow: hidden;
         padding: 0px 200px;
       }
-    
     
   }
   
@@ -27,6 +25,7 @@ body {
       }
     
   }
+
 
 
 
@@ -45,16 +44,57 @@ body {
    font-weight: bolder;
 }
 
+
+/* HOME SECTION */
+
+
+
+@media (max-width: 575.98px)  { 
+    .home-section-1 {
+        margin: 50px auto;
+        height: auto;
+    }
+
+    h1.text-center.dvrse-bold {
+        font-size: 2.1rem
+    }
+ }
+
+ 
+ @media (max-width: 767.98px) { 
+
+    .home-section-1 {
+        margin: 50px auto;
+        height: auto;
+    }
+    h1.text-center.dvrse-bold {
+        font-size: 2.1em
+    }
+  }
+
+
 /* NAV BAR */
+
+@media (max-width: 575.98px)  { 
+    .navbar-brand {
+        margin: 0px !important;
+
+    }
+ }
+
+ 
+ @media (max-width: 767.98px) { 
+
+    .navbar-brand {
+        margin: 0px !important;
+    }
+  }
 
 
 /* HOME PAGE SECTION */
 
 
-.home-section-1 {
-    margin: 200px auto;
-    height: 300px;
-}
+
 
 /* ABOUT SECTION */
 
@@ -65,10 +105,10 @@ body {
 
 /* Branding Section */
 
-.services-branding, .services-digital, .services-marketing {
+/* .services-branding, .services-digital, .services-marketing {
     margin-top: 100px;
-    margin-bottom: 300px;
-}
+    margin-bottom: 200px;
+} */
 
 
 /* footer */
@@ -85,9 +125,92 @@ body {
     position: absolute;
 }
 
+@media (max-width: 575.98px)  { 
+    .copy-right {
+        color: slategrey;
+        padding: 0px 20px !important;
+  
+    }
+    
+ }
+
+ 
+ @media (max-width: 767.98px) { 
+
+    .copy-right {
+        color: slategrey;
+        padding: 0px 20px !important;
+       
+    }
+    
+  }
+
+
+
 
 /* PORTFOLIO SECTION */
 .portfolio-item {
     margin-bottom: 30px;
   }
   
+
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .white-floating {
+        top: 0;
+        right: 0; 
+        position: absolute !important; 
+        width:456px; 
+        height:auto;
+    }
+
+    .services-branding, .services-digital, .services-marketing {
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+
+    .home-section-1 {
+        margin: 200px auto;
+        height: 300px;
+    }
+
+  }
+
+  @media (min-width: 1281px) {
+
+    .home-section-1 {
+        margin: 200px auto;
+        height: 300px;
+    }
+  
+    .white-floating {
+        top: 0;
+        right: 0; 
+        position: absolute !important; 
+        width:456px; 
+        height:auto; 
+    }
+
+    .services-branding, .services-digital, .services-marketing {
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    
+    
+  }
+
+
+
+
+
+/* @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
